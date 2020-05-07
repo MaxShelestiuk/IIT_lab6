@@ -5,8 +5,6 @@ ARG JAR_LIB_FILE=target/lib/
 
 WORKDIR pipeline/
 
-COPY ${JAR_FILE} App.jar
-
-ADD ${JAR_LIB_FILE} lib/
+COPY ${JAR_FILE} app.jar
 
 ENTRYPOINT [ "java", "-jar", "app.jar"]
