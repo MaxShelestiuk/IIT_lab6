@@ -5,7 +5,7 @@ ARG JAR_LIB_FILE=target/lib/
 
 WORKDIR pipeline/
 
-COPY ${JAR_FILE} App.jar
+COPY ${JAR_FILE} app.jar
 
 ADD ${JAR_LIB_FILE} lib/
 
