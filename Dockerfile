@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-ARG JAR_FILE=target/study-helper-bot.jar
+ARG JAR_FILE=target/telegram-bot.jar
 ARG JAR_LIB_FILE=target/lib/
 
 WORKDIR pipeline/
