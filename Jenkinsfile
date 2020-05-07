@@ -1,8 +1,8 @@
 ﻿ IMAGE_NAME="study-helper-bot"
 def CONTAINER_NAMES=["bot-container-1", "bot-container-2", "bot-admin-container-1"]
-def CONTAINER_ARGS_MAP=["bot-container-1":["client", "1157950351:AAFyQEJ1jPh7q6dxobiFkpEY0PSFYEUBd6A", "StudyHelperBot"],
-                        "bot-container-2":["client", "1270129103:AAGkQvYWUghwRzq7mfkcubNDFF0j2IpL3Fk", "StudyHelperBot2"],
-                        "bot-admin-container-1": ["admin", "1292436753:AAH3GZGl_IbXjWLRXQ4xxyeU8kjwSSyYXhA", "StudyHelperAdminBot"]]
+def CONTAINER_ARGS_MAP=["bot-container-1":["client", "1100690743:AAES5AX7UUdcYvK9n4TEOjlcBtJpD51mAyA", "Laba6first_bot"],
+                        "bot-container-2":["client", "1195403767:AAGk0ipJ9S3I_bvH9psrt5MQBiPtUrEpcTc", "Laba6second_bot"],
+                        "bot-admin-container-1": ["admin", "1153798145:AAEMpkARs3MQIm9OsPEtTHLtKQLP-WJDbiU", "Laba6Admin_bot"]]
 
 def IMAGE_TAG="latest"
 def DOCKER_HUB_USER="maxshelestiuk"
