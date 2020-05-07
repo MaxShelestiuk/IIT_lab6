@@ -1,4 +1,4 @@
-﻿def IMAGE_NAME="lab6Bot"
+﻿def IMAGE_NAME="study-helper-bot"
 def CONTAINER_NAMES=["bot-container-1", "bot-container-2", "bot-admin-container-1"]
 def CONTAINER_ARGS_MAP=["bot-container-1":["client", "1157950351:AAFyQEJ1jPh7q6dxobiFkpEY0PSFYEUBd6A", "Lab6Bot1"],
                         "bot-container-2":["client", "1270129103:AAGkQvYWUghwRzq7mfkcubNDFF0j2IpL3Fk", "Lab6Bot2"],
